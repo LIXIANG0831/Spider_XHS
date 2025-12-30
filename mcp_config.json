@@ -3,8 +3,10 @@
     "xhs-api": {
       "command": "python",
       "args": ["mcp_server.py"],
-      "cwd": "/Users/lixiang/Desktop/Spider_XHS",
-      "env": {},
+      "cwd": "<YOUR PROJECT PATH>",
+      "env": {
+        "XHS_COOKIES": "<YOUR XHS_COOKIES>"
+      },
       "disabled": false,
       "allowedEnv": ["*"]
     }
