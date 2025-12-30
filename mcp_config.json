@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "xhs-api": {
+      "command": "python",
+      "args": ["mcp_server.py"],
+      "cwd": "/Users/lixiang/Desktop/Spider_XHS",
+      "env": {},
+      "disabled": false,
+      "allowedEnv": ["*"]
+    }
+  }
+}
