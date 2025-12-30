@@ -34,7 +34,22 @@ export XHS_COOKIES="你的cookies字符串"
 ```
 
 ### 方法2：通过其他方式设置后，工具会自动从环境变量读取
-
+```bash
+{
+  "mcpServers": {
+    "xhs-api": {
+      "command": "python",
+      "args": ["mcp_server.py"],
+      "cwd": "<YOUR PROJECT PATH>",
+      "env": {
+        "XHS_COOKIES": "<YOUR XHS_COOKIES>"
+      },
+      "disabled": false,
+      "allowedEnv": ["*"]
+    }
+  }
+}
+```
 ## 启动MCP服务器
 
 ```bash
